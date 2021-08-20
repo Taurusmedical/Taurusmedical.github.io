@@ -1,1 +1,0 @@
-# taurusmedical.github.io
