@@ -418,4 +418,63 @@
    <script src="js/main.js"></script>
 </body>
 
+<!--Beta Announcement-->
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Poppins:700" rel="stylesheet">
+<div id="cookie-popup">
+  <p>Announcement</p>
+  <p>This website is currently under development so it might have some rough edges and might feel a little buggy.</p>
+  <button>ACCEPT & CLOSE</button>
+</div>
+ 
+
+<style>
+   body {
+  background-color: #232323;
+}
+
+#cookie-popup {
+  position: fixed;
+  z-index: 9999;
+  right: 30px;
+  bottom: 30px;
+  width: 330px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  background-color: #131313;
+  color: #eee;
+}
+
+#cookie-popup p:first-child {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: #eee;
+}
+
+#cookie-popup p:nth-child(2) {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+#cookie-popup button {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 0;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #E8A35D;
+  background-color: #000;
+  border: 4px solid #E8A35D;
+}
+</style>
+
+<script>
+$("#cookie-popup button").click(function() {
+  $("#cookie-popup").fadeOut();
+});
+
+</script>
+
 </html>
